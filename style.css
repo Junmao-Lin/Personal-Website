@@ -1,0 +1,66 @@
+#top{
+    background-image: url("images/star_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 500px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+#navigation_bar{
+    font-size: 120%;
+    color:white;
+
+    display: flex;
+    justify-content: space-around;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-style: solid;
+    border-color: rgb(0, 255, 242);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 3px white;
+}
+
+.navigation_bar:hover{
+    color:rgb(255, 227, 71);
+}
+#navigation_fill_in{
+    width: 20%;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color:white;
+
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    border-style: solid;
+    border-color: rgb(0, 255, 242);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px white;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    height:150px;
+
+}
+
+#content_name{
+    font-size: 300%;
+    font-family: Georgia;
+}
+
+#content_hr{
+    width: 70%;
+}
